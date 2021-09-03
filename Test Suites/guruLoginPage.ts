@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>example01</name>
+   <name>guruLoginPage</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,17 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>32ef96d3-9d98-4e40-8c3b-d8c6d6d2fb51</testSuiteGuid>
+   <testSuiteGuid>cd21f3c6-687e-4df2-a554-867e5a5d89b0</testSuiteGuid>
    <testCaseLink>
-      <guid>c11df66b-684e-440f-a82d-2904eb3ebc04</guid>
+      <guid>c512d335-5939-4a3d-9139-c0217efc08b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/example 1</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>82a34b61-6e0e-4c6c-8759-5937ee5e812f</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/guruLogin</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

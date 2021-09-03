@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>My First Web UI Project (1)</name>
+   <name>Login</name>
    <tag></tag>
-   <UUID>87351404-2366-4eca-bde2-44c4387805e6</UUID>
+   <UUID>07e4592f-e4a4-4eb5-bb86-39403f090716</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>

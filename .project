@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%trana%Katalon Studio%My First Web UI Project (1)%My First Web UI Project (1).prj</name>
+	<name>C%%Users%trana%Katalon Studio%Login%Login.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1630634969245</id>
+			<id>1630674283788</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1630634969256</id>
+			<id>1630674283807</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1630634979016</id>
+			<id>1630678249833</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1630634979025</id>
+			<id>1630678249833</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
