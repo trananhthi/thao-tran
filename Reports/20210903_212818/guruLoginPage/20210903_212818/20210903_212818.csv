@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+guruLoginPage,Chrome 93.0.4577.63,,,2021-09-03 21:28:42,2021-09-03 21:29:11,29.351s,PASSED
+,,,,,,,
+Test Cases/guruLogin,Chrome 93.0.4577.63,,,2021-09-03 21:28:42,2021-09-03 21:29:11,28.849s,PASSED
+"openBrowser("""")",Chrome 93.0.4577.63,,,2021-09-03 21:28:43,2021-09-03 21:28:47,3.824s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v4/"")",Chrome 93.0.4577.63,,,2021-09-03 21:28:47,2021-09-03 21:29:02,14.882s,PASSED
+"setText(findTestObject(""Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid""), ""mngr351353"")",Chrome 93.0.4577.63,,,2021-09-03 21:29:02,2021-09-03 21:29:03,0.977s,PASSED
+"setText(findTestObject(""Object Repository/Page_Guru99 Bank Home Page/input_Password_password""), ""sEdajEz"")",Chrome 93.0.4577.63,,,2021-09-03 21:29:03,2021-09-03 21:29:04,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin""))",Chrome 93.0.4577.63,,,2021-09-03 21:29:04,2021-09-03 21:29:10,6.380s,PASSED
+takeScreenshot(),Chrome 93.0.4577.63,,,2021-09-03 21:29:10,2021-09-03 21:29:10,0.536s,PASSED
+closeBrowser(),Chrome 93.0.4577.63,,,2021-09-03 21:29:10,2021-09-03 21:29:11,0.742s,PASSED

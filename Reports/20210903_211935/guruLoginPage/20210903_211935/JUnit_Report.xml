@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="guruLoginPage" time="35.036" tests="1" failures="0" errors="0">
+   <testsuite name="guruLoginPage" tests="1" failures="0" errors="0" time="35.036" skipped="0" timestamp="2021-09-03 21:19:50" hostname="Trần Anh Thi - DESKTOP-ID884VM" id="Test Suites/guruLoginPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\trana\\Katalon Studio\\Login\\Reports\\20210903_211935\\guruLoginPage\\20210903_211935"/>
+         <property name="logFiles" value="C:\\Users\\trana\\Katalon Studio\\Login\\Reports\\20210903_211935\\guruLoginPage\\20210903_211935\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\trana\\Katalon Studio\\Login\\Reports\\20210903_211935\\guruLoginPage\\20210903_211935\\1630678820398.png"/>
+         <property name="hostName" value="Trần Anh Thi - DESKTOP-ID884VM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.63"/>
+         <property name="hostAddress" value="169.254.6.55"/>
+         <property name="sessionId" value="a4d8847ef418adcd707adaf2ae4de3d7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/guruLogin" time="33.063" classname="Test Cases/guruLogin" status="PASSED">
+         <system-out><![CDATA[2021-09-03 21:19:51 - [TEST_CASE][PASSED] - Test Cases/guruLogin: Test Cases/guruLogin
+
+2021-09-03 21:19:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-09-03 21:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-03 21:19:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-03 21:19:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-09-03 21:19:57 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v4/"): Navigate to 'http://demo.guru99.com/v4/' successfully
+
+2021-09-03 21:20:17 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v4/' successfully
+
+2021-09-03 21:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid"), "thaotran"): Text 'thaotran' is set on object 'Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid'
+
+2021-09-03 21:20:18 - [MESSAGE][PASSED] - Text 'thaotran' is set on object 'Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid'
+
+2021-09-03 21:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Guru99 Bank Home Page/input_Password_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Guru99 Bank Home Page/input_Password_password'
+
+2021-09-03 21:20:19 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Guru99 Bank Home Page/input_Password_password'
+
+2021-09-03 21:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin")): Object: 'Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin' is clicked on
+
+2021-09-03 21:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin' is clicked on
+
+2021-09-03 21:20:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-09-03 21:20:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\trana\\Katalon Studio\\Login\\Reports\\20210903_211935\\guruLoginPage\\20210903_211935\\1630678820398.png]]
+
+2021-09-03 21:20:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-09-03 21:20:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-03 21:19:50 - [TEST_SUITE][PASSED] - guruLoginPage: Test Cases/guruLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

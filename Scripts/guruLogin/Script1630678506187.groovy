@@ -17,17 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+"Open browser"
 WebUI.openBrowser('')
 
+"nagigate to guru99 page"
 WebUI.navigateToUrl('http://demo.guru99.com/v4/')
 
+"input username"
 WebUI.setText(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_UserID_uid'), 'mngr351353')
 
+"input password"
 WebUI.setText(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_Password_password'), 'sEdajEz')
 
+"click on Login button"
 WebUI.click(findTestObject('Object Repository/Page_Guru99 Bank Home Page/input_Password_btnLogin'))
 
+"take a screenshot"
 WebUI.takeScreenshot()
 
+"closer browser"
 WebUI.closeBrowser()
 
