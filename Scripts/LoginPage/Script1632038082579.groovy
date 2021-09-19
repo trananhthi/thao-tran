@@ -17,25 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-"Open the link"
-WebUI.openBrowser("https://www.nopcommerce.com/en/login?returnUrl=%2Fen%2Fdemo")
+"Open browser"
+WebUI.openBrowser("")
 
-"maximize the browser"
+"maximize window"
 WebUI.maximizeWindow()
 
+"navigate to URL"
+WebUI.navigateToUrl("http://the-internet.herokuapp.com/login")
+
 "Input username"
-WebUI.setText(findTestObject('Object Repository/Login/txtUserName'), 'thaotran')
+WebUI.setText(findTestObject('Object Repository/Login/txtUserName'), 'tomsmith')
 
-"input password"
-WebUI.setText(findTestObject('Object Repository/Login/txtPassWord'), '123456aA')
+"Input password"
+WebUI.setText(findTestObject('Object Repository/Login/txtPassWord'), 'SuperSecretPassword!')
 
-"click on Login btn"
+"Click on Login button"
 WebUI.click(findTestObject('Object Repository/Login/btnLogin'))
+
+"set delay"
+WebUI.delay(2)
 
 "take a screenshot"
 WebUI.takeScreenshot()
 
-"set a delay"
-WebUI.delay(5)
-"close browser"
+"getText and split text"
+String[] textDisplayed = WebUI.getText(findTestObject('Object Repository/Login/verifyText')).split('\n')
+
+"print expected text"
+println textDisplayed[0]
+
+"verify atual text and expected text"
+boolean a = WebUI.verifyEqual(textDisplayed[0], 'You logged into a secure area!')
+
+println a
+"Close browser"
 WebUI.closeBrowser()

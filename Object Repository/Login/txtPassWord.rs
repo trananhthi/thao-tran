@@ -3,17 +3,17 @@
    <description></description>
    <name>txtPassWord</name>
    <tag></tag>
-   <elementGuidId>fe5270c9-9b05-4ebe-b6fb-6173922e2873</elementGuidId>
+   <elementGuidId>c9d50ab7-56ef-451e-8282-fa1f535414fe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Password']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input#password</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

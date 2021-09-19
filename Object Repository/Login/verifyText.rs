@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txtUserName</name>
+   <name>verifyText</name>
    <tag></tag>
-   <elementGuidId>ad7be99f-b8da-40e1-8c50-16edec50fd17</elementGuidId>
+   <elementGuidId>67e11480-b8a3-4e65-bd35-0fca2a0f7b2b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>input#username</value>
+         <value>div#flash</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

@@ -3,15 +3,15 @@
    <description></description>
    <name>btnLogin</name>
    <tag></tag>
-   <elementGuidId>4ec683b4-8c57-4a0b-965c-17e372a099cb</elementGuidId>
+   <elementGuidId>d47f17d0-c112-4ce7-a57f-5f1d5863980d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@type='submit']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

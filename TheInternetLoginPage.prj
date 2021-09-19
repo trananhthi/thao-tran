@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>example2</name>
+   <name>TheInternetLoginPage</name>
    <tag></tag>
-   <UUID>615c7cc2-5fe0-4e8d-9bf5-2a79e0ddc577</UUID>
+   <UUID>e913eb0b-c662-4f02-9696-1aaafead5b77</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
